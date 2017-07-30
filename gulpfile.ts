@@ -16,7 +16,6 @@ gulp.task('build', function (done) {
     'compile-sass',
     'compile-typings'
   );
-
 });
 
 

@@ -8,35 +8,26 @@ Optionally uses bootstrap.css (v 3.x.x) for styling of some elements (although t
 ## Install
 Install the module via npm:
 
-    npm install auto-breadcrumb --save
+    npm install ng2-auto-breadcrumb --save
 
 ## Usage
-Import the this module into your module using forRoot()
+Declare this component in the declaration
+```typescript
+import {Ng2AutoBreadCrumbComponent} from 'ng2-auto-breadcrumb';
 
-    import {AutoBreadCrumb} from 'auto-breadcrumb';
-
-	@NgModule({
-        imports: [AutoBreadCrumb]
-    })
-    export class AppModule {
-        ...
-    }
-
+// In your App's module:
+@NgModule({
+    imports: [
+    ],
+    declarations: [
+      Ng2AutoBreadCrumbComponent
+    ],
+    providers: [{
+    }],
+    bootstrap: [  ]
+})
 
 Place the breadcrumb selector in your component's html where you added your router-outlet:
 
-	<breadcrumb></breadcrumb>
+	<ng2-auto-breadcrumb></ng2-auto-breadcrumb>
 	<router-outlet></router-outlet>
-	
-## Build
-
-    npm install
-    npm build
-
-To build a standalone bundle:
-
-    npm bundles
-
-## Running
-
-    npm start

@@ -1,6 +1,6 @@
 {
-  "name": "auto-breadcrump",
-  "version": "1.0.0",
+  "name": "ng2-auto-breadcrumb",
+  "version": "1.0.6",
   "description": "Display Breadcrumb navigation automatically in angular JS projects",
   "main": "index.js",
   "types": "index.d.ts",
@@ -40,6 +40,7 @@
     "gulp-typings": "^2.0.4",
     "gulp-uglify": "^2.0.0",
     "run-sequence": "^1.2.2",
+    "rxjs": "5.0.0-beta.12",
     "typescript": "^2.0.3",
     "typings": "^1.4.0"
   }
