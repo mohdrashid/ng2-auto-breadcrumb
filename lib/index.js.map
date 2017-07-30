@@ -1,1 +1,1 @@
-{"version":3,"names":[],"mappings":"","sources":["index.js"],"sourcesContent":["export * from './ng2autobreadcrumb.module';\nexport * from './components/ng2autobreadcrumb.component';\n"],"file":"index.js"}
+{"version":3,"names":[],"mappings":"","sources":["index.js"],"sourcesContent":["export * from './ng2autobreadcrumb.module';\n"],"file":"index.js"}
