@@ -31,6 +31,6 @@ Declare this component in the declaration
 
 Place the breadcrumb selector in your component's html where you added your router-outlet:
     ```HTML
-        <ng2-auto-breadcrumb></ng2-auto-breadcrumb>
-        <router-outlet></router-outlet>
+    <ng2-auto-breadcrumb></ng2-auto-breadcrumb>
+    <router-outlet></router-outlet>
     ```
