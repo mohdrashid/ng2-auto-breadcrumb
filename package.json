@@ -1,6 +1,6 @@
 {
   "name": "ng2-auto-breadcrumb",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Display Breadcrumb navigation automatically in angular JS projects",
   "main": "index.js",
   "types": "index.d.ts",
