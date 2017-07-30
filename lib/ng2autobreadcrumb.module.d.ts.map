@@ -1,1 +1,1 @@
-{"version":3,"names":[],"mappings":"","sources":["ng2autobreadcrumb.module.d.ts"],"sourcesContent":["import { Ng2AutoBreadCrumbComponent } from \"./components/ng2autobreadcrumb.component\";\nexport declare class Ng2AutoBreadCrumb {\n}\nexport { Ng2AutoBreadCrumbComponent };\n"],"file":"ng2autobreadcrumb.module.d.ts"}
+{"version":3,"names":[],"mappings":"","sources":["ng2autobreadcrumb.module.d.ts"],"sourcesContent":["export declare class Ng2AutoBreadCrumb {\n}\n"],"file":"ng2autobreadcrumb.module.d.ts"}
