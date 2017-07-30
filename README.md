@@ -1,37 +1,72 @@
-# Auto Breadcrumb
+# ng2-auto-breadcrumb
 
-This is a Angular JS 2/4 module that can be included in projects to automatically display breadcrumb for that page.
+## Installation
 
-## Dependencies
-Optionally uses bootstrap.css (v 3.x.x) for styling of some elements (although the component is fully functional without it and there is a flag to turn off the dependency).
+To install this library, run:
 
-## Install
-Install the module via npm:
+```bash
+$ npm install ng2-auto-breadcrumb --save
+```
 
-    npm install ng2-auto-breadcrumb --save
+## Consuming your library
 
-## Usage
-Declare this component in the declaration
+Once you have published your library to npm, you can import your library in any Angular application by running:
 
-    ```typescript
-        import {Ng2AutoBreadCrumbComponent} from 'ng2-auto-breadcrumb';
-        // In your App's module:
-        @NgModule({
-            imports: [
-            ],
-            declarations: [
-              Ng2AutoBreadCrumbComponent
-            ],
-            providers: [{
-            }],
-            bootstrap: [  ]
-        })
-    ```
+```bash
+$ npm install ng2-auto-breadcrumb
+```
 
+and then from your Angular `AppModule`:
 
-Place the breadcrumb selector in your component's html where you added your router-outlet:
+```typescript
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
 
-  ```html
-    <ng2-auto-breadcrumb></ng2-auto-breadcrumb>
-    <router-outlet></router-outlet>
-   ```
+import { AppComponent } from './app.component';
+
+// Import your library
+import { SampleModule } from 'ng2-auto-breadcrumb';
+
+@NgModule({
+  declarations: [
+    AppComponent
+  ],
+  imports: [
+    BrowserModule,
+
+    // Specify your library as an import
+    LibraryModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
+```
+
+Once your library is imported, you can use its components, directives and pipes in your Angular application:
+
+```xml
+<!-- You can now use your library component in app.component.html -->
+<h1>
+  {{title}}
+</h1>
+<sampleComponent></sampleComponent>
+```
+
+## Development
+
+To generate all `*.js`, `*.d.ts` and `*.metadata.json` files:
+
+```bash
+$ npm run build
+```
+
+To lint all `*.ts` files:
+
+```bash
+$ npm run lint
+```
+
+## License
+
+MIT © [Mohammed Rashid](mailto:mohmad.rashid@hotmail.com)

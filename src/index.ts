@@ -1,2 +1,25 @@
+import { NgModule, ModuleWithProviders } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import {Ng2AutoBreadCrumbComponent} from './ng2autobreadcrumb.component';
 
-export * from './ng2autobreadcrumb.module'
+
+
+@NgModule({
+  imports: [
+    CommonModule
+  ],
+  declarations: [
+    Ng2AutoBreadCrumbComponent
+  ],
+  exports: [
+    Ng2AutoBreadCrumbComponent
+  ]
+})
+export class Ng2AutoBreadCrumb {
+  static forRoot(): ModuleWithProviders {
+    return {
+      ngModule: Ng2AutoBreadCrumb,
+      providers: []
+    };
+  }
+}
