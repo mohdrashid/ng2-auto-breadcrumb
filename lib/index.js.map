@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["index.js"],"sourcesContent":["export * from './breadcrumb.module';\nexport * from './components/breadcrumb.component';\n"],"file":"index.js"}

@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["breadcrumb.module.d.ts"],"sourcesContent":["export declare class AutoBreadCrumb {\n}\n"],"file":"breadcrumb.module.d.ts"}
