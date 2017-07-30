@@ -16,10 +16,4 @@ import {Ng2AutoBreadCrumbComponent} from './ng2autobreadcrumb.component';
   ]
 })
 export class Ng2AutoBreadCrumb {
-  static forRoot(): ModuleWithProviders {
-    return {
-      ngModule: Ng2AutoBreadCrumb,
-      providers: []
-    };
-  }
 }
