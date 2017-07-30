@@ -1,6 +1,6 @@
 {
   "name": "ng2-auto-breadcrumb",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Display Breadcrumb navigation automatically in angular JS projects",
   "main": "index.js",
   "types": "index.d.ts",
@@ -15,6 +15,10 @@
     "Navigation",
     "Router"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mohdrashid/ng2-auto-breadcrump.git"
+  },
   "author": "Mohammed Rashid <mohmad.rashid@hotmail.com> (http://www.droidhat.com)",
   "license": "MIT",
   "homepage": "https://www.droidhat.com",
