@@ -12,3 +12,4 @@ import {Ng2AutoBreadCrumbComponent} from "./components/ng2autobreadcrumb.compone
   exports: [Ng2AutoBreadCrumbComponent]
 })
 export class Ng2AutoBreadCrumb {}
+export {Ng2AutoBreadCrumbComponent}
