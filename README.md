@@ -1,4 +1,5 @@
 # ng2-auto-breadcrumb
+This is a Angular JS 2/4 module that can be included in projects to automatically display breadcrumb for that page.
 
 ## Installation
 

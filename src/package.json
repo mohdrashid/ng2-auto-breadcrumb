@@ -1,7 +1,7 @@
 {
   "name": "ng2-auto-breadcrumb",
   "description": "Display Breadcrumb navigation automatically in angular JS projects",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "repository": {
     "type": "git",
     "url": "https://github.com/mohdrashid/ng2-auto-breadcrumb"
