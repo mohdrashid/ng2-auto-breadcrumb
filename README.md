@@ -15,7 +15,6 @@ Declare this component in the declaration
 
     ```typescript
         import {Ng2AutoBreadCrumbComponent} from 'ng2-auto-breadcrumb';
-
         // In your App's module:
         @NgModule({
             imports: [
