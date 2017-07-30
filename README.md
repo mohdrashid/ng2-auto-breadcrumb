@@ -12,6 +12,7 @@ Install the module via npm:
 
 ## Usage
 Declare this component in the declaration
+
     ```typescript
         import {Ng2AutoBreadCrumbComponent} from 'ng2-auto-breadcrumb';
 
