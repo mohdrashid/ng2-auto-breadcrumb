@@ -4,7 +4,7 @@ import { NavigationStart, Router} from "@angular/router";
 @Component({
   selector: 'ng2-auto-breadcrumb',
   templateUrl: './ng2autobreadcrumb.component.html',
-  styleUrls: ['/ng2autobreadcrumb.component.scss']
+  styleUrls: ['./ng2autobreadcrumb.component.scss']
 })
 export class Ng2AutoBreadCrumbComponent implements OnInit{
   ngOnInit(): void {

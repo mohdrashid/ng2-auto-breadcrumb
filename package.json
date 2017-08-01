@@ -1,7 +1,7 @@
 {
   "name": "ng2-auto-breadcrumb",
   "description": "Display Breadcrumb navigation automatically in angular JS projects",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "scripts": {
     "build": "gulp build",
     "build:watch": "gulp",
